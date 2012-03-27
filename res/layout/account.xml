@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:weightSum="1">
+    <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:orientation="vertical" android:weightSum="1" android:layout_weight="0.09">
+        <TextView android:layout_width="wrap_content" android:text="Your account details are given below. Make any changes if necessary and press Update!" android:layout_height="wrap_content" android:id="@+id/textView1" android:layout_weight="2.83"></TextView>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout2" android:layout_height="wrap_content" android:layout_weight="0.09" android:orientation="vertical">
+        <TextView android:layout_width="wrap_content" android:text="TextView" android:layout_height="wrap_content" android:id="@+id/pinText"></TextView>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout3" android:layout_height="wrap_content" android:layout_weight="0.09" android:orientation="vertical">
+        <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/chngFname">
+            <requestFocus></requestFocus>
+        </EditText>
+        <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/chngEmail"></EditText>
+    </LinearLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/relativeLayout1" android:layout_weight="0.09">
+        <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Update" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_marginRight="48dp" android:id="@+id/update"></Button>
+    </RelativeLayout>
+    
+</LinearLayout>

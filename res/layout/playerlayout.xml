@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/LinearLayout1"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:weightSum="1">
+    <ImageView android:layout_height="wrap_content" android:id="@+id/imageView1" android:layout_width="match_parent" android:src="@drawable/music" android:layout_weight="0.90"></ImageView>
+    <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout2" android:layout_width="match_parent" android:layout_weight="0.62" android:orientation="vertical" android:weightSum="1">
+        <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout3" android:layout_width="match_parent" android:orientation="vertical">
+            <TextView android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="wrap_content" android:text="TextView" android:id="@+id/title"></TextView>
+            <TextView android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:text="TextView" android:id="@+id/artist"></TextView>
+            <TextView android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_width="wrap_content" android:text="TextView" android:id="@+id/album"></TextView>
+        </LinearLayout>
+        <RelativeLayout android:layout_height="wrap_content" android:id="@+id/relativeLayout1" android:layout_width="match_parent" android:layout_weight="0.70">
+            <ImageButton android:layout_height="wrap_content" android:src="@drawable/browse" android:layout_width="wrap_content" android:layout_alignParentLeft="true" android:layout_marginTop="15dp" android:layout_marginLeft="15dp" android:id="@+id/selectFileBtn"></ImageButton>
+            <ImageButton android:layout_height="wrap_content" android:src="@drawable/play" android:layout_width="wrap_content" android:layout_alignParentLeft="true" android:layout_marginTop="15dp" android:layout_marginLeft="90dp" android:id="@+id/playBtn"></ImageButton>
+            <ImageButton android:layout_height="wrap_content" android:src="@drawable/stop" android:layout_width="wrap_content" android:layout_alignParentLeft="true" android:layout_marginTop="15dp" android:layout_marginLeft="165dp" android:id="@+id/stopBtn"></ImageButton>
+            <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_alignParentLeft="true" android:layout_marginTop="95dp" android:layout_marginLeft="170dp" android:text="@string/tellFriends" android:id="@+id/tellFriends"></Button>
+            <SeekBar android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentLeft="true" android:layout_marginTop="100dp" android:layout_marginLeft="20dp" android:id="@+id/volumeBar" android:layout_alignRight="@+id/playBtn" android:progress="100"></SeekBar>
+        </RelativeLayout>
+    </LinearLayout>
+    
+</LinearLayout>

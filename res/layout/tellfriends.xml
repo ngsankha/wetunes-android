@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:weightSum="1">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/linearLayout1" android:orientation="vertical" android:layout_weight="0.26">
+        <TextView android:layout_width="wrap_content" android:text="TextView" android:id="@+id/sendInfo" android:layout_height="wrap_content"></TextView>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout2" android:orientation="vertical" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/relativeLayout1">
+            <TextView android:layout_width="wrap_content" android:text="Number : " android:id="@+id/textView2" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_alignParentTop="true" android:layout_alignParentLeft="true" android:layout_marginTop="15dp"></TextView>
+            <EditText android:layout_width="wrap_content" android:layout_height="wrap_content" android:inputType="phone" android:layout_alignParentTop="true" android:layout_toRightOf="@+id/textView2" android:layout_marginLeft="15dp" android:layout_marginRight="21dp" android:layout_alignParentRight="true" android:id="@+id/phNo">
+            </EditText>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/linearLayout3" android:layout_weight="0.26" android:orientation="vertical">
+        <EditText android:layout_width="match_parent" android:inputType="textMultiLine" android:layout_height="match_parent" android:id="@+id/msg">
+            <requestFocus></requestFocus>
+        </EditText>
+    </LinearLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/relativeLayout2" android:layout_weight="0.26">
+        <Button android:layout_alignParentRight="true" android:layout_marginRight="15dp" android:layout_width="wrap_content" android:text="Send" android:id="@+id/sendBtn" android:layout_height="wrap_content"></Button>
+    </RelativeLayout>
+    
+</LinearLayout>

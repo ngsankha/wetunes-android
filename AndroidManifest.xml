@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      android:versionCode="1"
+      android:versionName="1.0" package="sngforge.android.wetunes">
+    <uses-sdk android:minSdkVersion="8" />
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.SEND_SMS"></uses-permission>
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:label="@string/app_name"
+          	android:theme="@android:style/Theme.NoTitleBar" android:name="WeTunesActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="MediaActivity" android:theme="@android:style/Theme.NoTitleBar" android:label="@string/app_name"></activity>
+        <activity android:label="@string/app_name" android:name="SocialActivity" android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity android:name="FileChooser" android:label="Select a file to play..."></activity>
+        <activity android:name="FirstRunActivity"></activity>
+        <activity android:name="Friends"></activity>
+        <activity android:name="FriendsResolve"></activity>
+        <activity android:name="FriendProfile" android:theme="@android:style/Theme.NoTitleBar" android:label="@string/app_name"></activity>
+        <activity android:name="SuggestSong" android:theme="@android:style/Theme.NoTitleBar" android:label="@string/app_name"></activity>
+        <activity android:name="FriendProfileContainer" android:theme="@android:style/Theme.NoTitleBar" android:label="@string/app_name"></activity>
+        <activity android:name="Rate"></activity>
+        <activity android:name="SuggestionContainer" android:theme="@android:style/Theme.NoTitleBar" android:label="@string/app_name"></activity>
+        <activity android:name="ViewSuggestions"></activity>
+        <activity android:name="Top"></activity>
+        <activity android:name="Account"></activity>
+        <activity android:name="AboutActivity"></activity>
+        <activity android:name="FriendsTab"></activity>
+        <activity android:name="VideoPlayer"></activity>
+        <activity android:name="TellFriends"></activity>
+
+    </application>
+</manifest>

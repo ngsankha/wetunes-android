@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WeTunes</string>
+    <string name="select_file">Select File...</string>
+    <string name="cancel">Cancel</string>
+    <string name="selectFileInstr">Select a file to open...</string>
+    <string name="tellFriends">Tell Friends...</string>
+    <string name="welcomMsg">Hi! Welcome to WeTunes! The brand new social music player. Apart from playing your favourity music it helps you to connect and rate music amongst your friends to give you a vibrant social experience.</string>
+    <string name="email">Email</string>
+    <string name="fullname">Full Name</string>
+    <string name="noteMsg">Since you are running this for the first time, you are being asked for these details to get registered on the server.</string>
+    <string name="register">Register</string>
+    <string name="blank"></string>
+    <string name="frndsMsg">Add friends and view what they are listening to and whats on their mind here!</string>
+    <string name="rateMsg">Rate the songs that you are listening</string>
+    <string name="suggestMsg">Get song suggestions from your friends and also get the top playing songs now</string>
+    <string name="shareMsg">Whats on your mind?</string>
+    <string name="accMsg">Manage your account details here</string>
+</resources>

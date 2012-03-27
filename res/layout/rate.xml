@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:weightSum="1">
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="vertical" android:layout_weight="0.09">
+        <TextView android:text="Rate songs now so that you and everybody else gets a good music experience!" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textView1"></TextView>
+    </LinearLayout>
+    <EditText android:text="Song title" android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/rateTitle">
+        <requestFocus></requestFocus>
+    </EditText>
+    <EditText android:text="Artist" android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/rateArtist"></EditText>
+    <RatingBar android:layout_weight="0.09" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/rating"></RatingBar>
+    <RelativeLayout android:id="@+id/relativeLayout1" android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_weight="0.09">
+        <Button android:text="Rate!" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:id="@+id/giveRateBtn"></Button>
+    </RelativeLayout>
+    <LinearLayout android:id="@+id/linearLayout2" android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_weight="0.09" android:orientation="vertical">
+        <TextView android:text="Get the ratings of songs!" android:layout_width="wrap_content" android:layout_weight="0.02" android:layout_height="wrap_content" android:id="@+id/textView2"></TextView>
+        <EditText android:text="Song title" android:layout_width="match_parent" android:layout_weight="0.09" android:layout_height="wrap_content" android:id="@+id/getRateTitle"></EditText>
+        <EditText android:text="Artist" android:layout_width="match_parent" android:layout_weight="0.09" android:layout_height="wrap_content" android:id="@+id/getRateArtist"></EditText>
+    </LinearLayout>
+    <RelativeLayout android:id="@+id/relativeLayout2" android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_weight="0.09">
+        <Button android:text="Get Ratings!" android:id="@+id/getRating" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true"></Button>
+    </RelativeLayout>
+    
+</LinearLayout>

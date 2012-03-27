@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:weightSum="1">
+    <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout2" android:layout_width="match_parent">
+        <TextView android:id="@+id/textView1" android:text="Suggest a song to your friend. Just provide the details below and press Suggest" android:layout_width="wrap_content" android:layout_height="67dp"></TextView>
+    </LinearLayout>
+    <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout1" android:layout_width="match_parent" android:orientation="vertical" android:layout_weight="0.12">
+        <EditText android:text="Song title" android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/title"></EditText>
+        <EditText android:text="Artist" android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/artist"></EditText>
+    </LinearLayout>
+    <RelativeLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/relativeLayout1">
+        <Button android:layout_width="wrap_content" android:text="Suggest" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_marginRight="18dp" android:id="@+id/sendSuggestBtn"></Button>
+    </RelativeLayout>
+    
+</LinearLayout>
