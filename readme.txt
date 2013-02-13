@@ -1,6 +1,8 @@
 The app WeTunes is for the Android platform that allows us to socialise, rate and suggest music among our friends to incorporate a vibrant community feeling while listening to music.
 
-This was made for the Appsurd Competition at Techfest 2012, IIT Bombay.
+WeTunes in action can be seen https://www.youtube.com/watch?v=6b4rAJXQ1I4
+
+This was made for the Android App Development Competition at Techfest 2012, IIT Bombay.
 
 Building Wetunes
 ----------------
